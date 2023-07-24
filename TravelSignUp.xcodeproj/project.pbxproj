@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		7DFE147F2A6EF2580004A8D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE147E2A6EF2580004A8D2 /* AppDelegate.swift */; };
 		7DFE14812A6EF2580004A8D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE14802A6EF2580004A8D2 /* SceneDelegate.swift */; };
-		7DFE14832A6EF2580004A8D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE14822A6EF2580004A8D2 /* ViewController.swift */; };
+		7DFE14832A6EF2580004A8D2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE14822A6EF2580004A8D2 /* WelcomeViewController.swift */; };
 		7DFE14862A6EF2580004A8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFE14842A6EF2580004A8D2 /* Main.storyboard */; };
 		7DFE14882A6EF2590004A8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFE14872A6EF2590004A8D2 /* Assets.xcassets */; };
 		7DFE148B2A6EF2590004A8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFE14892A6EF2590004A8D2 /* LaunchScreen.storyboard */; };
 		7DFE14962A6EF2590004A8D2 /* TravelSignUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE14952A6EF2590004A8D2 /* TravelSignUpTests.swift */; };
 		7DFE14A02A6EF2590004A8D2 /* TravelSignUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE149F2A6EF2590004A8D2 /* TravelSignUpUITests.swift */; };
 		7DFE14A22A6EF2590004A8D2 /* TravelSignUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE14A12A6EF2590004A8D2 /* TravelSignUpUITestsLaunchTests.swift */; };
+		7DFE14AF2A6EFDAF0004A8D2 /* BottomBorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE14AE2A6EFDAF0004A8D2 /* BottomBorderTextField.swift */; };
+		7DFE14B12A6F00DA0004A8D2 /* CreateNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE14B02A6F00DA0004A8D2 /* CreateNewAccountViewController.swift */; };
+		7DFE14B52A6F0A6C0004A8D2 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE14B42A6F0A6C0004A8D2 /* UITextField+Extension.swift */; };
+		7DFE14B72A6F0B1D0004A8D2 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE14B62A6F0B1D0004A8D2 /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		7DFE147B2A6EF2580004A8D2 /* TravelSignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelSignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFE147E2A6EF2580004A8D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DFE14802A6EF2580004A8D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7DFE14822A6EF2580004A8D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DFE14822A6EF2580004A8D2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		7DFE14852A6EF2580004A8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DFE14872A6EF2590004A8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DFE148A2A6EF2590004A8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		7DFE149B2A6EF2590004A8D2 /* TravelSignUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelSignUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFE149F2A6EF2590004A8D2 /* TravelSignUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelSignUpUITests.swift; sourceTree = "<group>"; };
 		7DFE14A12A6EF2590004A8D2 /* TravelSignUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelSignUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DFE14AE2A6EFDAF0004A8D2 /* BottomBorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBorderTextField.swift; sourceTree = "<group>"; };
+		7DFE14B02A6F00DA0004A8D2 /* CreateNewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewAccountViewController.swift; sourceTree = "<group>"; };
+		7DFE14B42A6F0A6C0004A8D2 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		7DFE14B62A6F0B1D0004A8D2 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,8 @@
 		7DFE147D2A6EF2580004A8D2 /* TravelSignUp */ = {
 			isa = PBXGroup;
 			children = (
-				7DFE147E2A6EF2580004A8D2 /* AppDelegate.swift */,
-				7DFE14802A6EF2580004A8D2 /* SceneDelegate.swift */,
-				7DFE14822A6EF2580004A8D2 /* ViewController.swift */,
+				7DFE14B32A6F00F50004A8D2 /* Utils */,
+				7DFE14B22A6F00E10004A8D2 /* SignUp */,
 				7DFE14842A6EF2580004A8D2 /* Main.storyboard */,
 				7DFE14872A6EF2590004A8D2 /* Assets.xcassets */,
 				7DFE14892A6EF2590004A8D2 /* LaunchScreen.storyboard */,
@@ -125,6 +132,27 @@
 				7DFE14A12A6EF2590004A8D2 /* TravelSignUpUITestsLaunchTests.swift */,
 			);
 			path = TravelSignUpUITests;
+			sourceTree = "<group>";
+		};
+		7DFE14B22A6F00E10004A8D2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				7DFE14822A6EF2580004A8D2 /* WelcomeViewController.swift */,
+				7DFE14B02A6F00DA0004A8D2 /* CreateNewAccountViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		7DFE14B32A6F00F50004A8D2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7DFE14AE2A6EFDAF0004A8D2 /* BottomBorderTextField.swift */,
+				7DFE147E2A6EF2580004A8D2 /* AppDelegate.swift */,
+				7DFE14802A6EF2580004A8D2 /* SceneDelegate.swift */,
+				7DFE14B42A6F0A6C0004A8D2 /* UITextField+Extension.swift */,
+				7DFE14B62A6F0B1D0004A8D2 /* UIViewController+Extension.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DFE14832A6EF2580004A8D2 /* ViewController.swift in Sources */,
+				7DFE14B12A6F00DA0004A8D2 /* CreateNewAccountViewController.swift in Sources */,
+				7DFE14832A6EF2580004A8D2 /* WelcomeViewController.swift in Sources */,
 				7DFE147F2A6EF2580004A8D2 /* AppDelegate.swift in Sources */,
+				7DFE14B52A6F0A6C0004A8D2 /* UITextField+Extension.swift in Sources */,
+				7DFE14B72A6F0B1D0004A8D2 /* UIViewController+Extension.swift in Sources */,
+				7DFE14AF2A6EFDAF0004A8D2 /* BottomBorderTextField.swift in Sources */,
 				7DFE14812A6EF2580004A8D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +477,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +506,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
